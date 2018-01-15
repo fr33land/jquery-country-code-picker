@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>ccPicker demo</title>
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+        <script src="js/jquery.ccpicker.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery.ccpicker.css">
+		<script>
+			$( document ).ready(function() {
+				$("#phoneField1").CcPicker();
+				$("#phoneField1").CcPicker("setCountryByCode","ru");
+				$("#phoneField3").CcPicker({"countryCode":"us"});
+				$("#phoneField5").CcPicker();
+			});
+		</script>
+    </head>
+    <body>
+        <div>
+            <form id="mainForm" action="dialer.html" method="POST">
+			<div class="input">
+                <input type="text" id="phoneField1" name="phoneField1" class="phone-field"/>
+			</div>
+			<br/>			
+			<div class="input">
+                <input type="text" id="phoneField3" name="phoneField3" class="phone-field"/>
+			</div>
+			<br/>
+			<div class="input">
+                <input type="text" id="phoneField5" name="phoneField5" class="phone-field"/>
+			</div>
+			<br/>
+			<input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
