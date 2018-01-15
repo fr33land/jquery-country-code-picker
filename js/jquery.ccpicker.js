@@ -1,5 +1,5 @@
 /*
- * jQuery Country code picker plugin v 0.2 
+ * jQuery Country code picker plugin v 0.3 
  * https://github.com/fr33land/jquery-country-code-picker
  * 
  * Author: Rokas Sabaliauskas(fr33land) 
@@ -42,18 +42,21 @@
     this._ccData = {};
     this._ccPicker = {};
     this._ccDialCodeTrackerField = {};
+	this._ccSelectedCountry = {};
     this.init();
 
     function setCountryByPhoneCode(code) {
       var cc = self.findCountryByPhoneCode(self, code);
       self._ccPicker.html(self.createCountryListItem(cc.code, cc.phoneCode));
 	  self._ccDialCodeTrackerField.val(cc.phoneCode);
+	  self._ccSelectedCountry = {code: cc.code, phoneCode: cc.phoneCode};
     }
 
     function setCountryByCode(code) {
       var cc = self.findCountryByCountryCode(self, code);
       self._ccPicker.html(self.createCountryListItem(cc.code, cc.phoneCode));
 	  self._ccDialCodeTrackerField.val(cc.phoneCode);
+	  self._ccSelectedCountry = {code: cc.code, phoneCode: cc.phoneCode};
     }
 
     return {
@@ -75,6 +78,7 @@
         value: cc.phoneCode
       }).insertAfter(this.element);
       this._ccPicker.prepend(this.createCountryListItem(this.options.countryCode.toLowerCase(), cc.phoneCode));
+	  this._ccSelectedCountry = {code: this.options.countryCode.toLowerCase(), phoneCode: cc.phoneCode};
       this._ccPicker.on("click", function () {
         $.isEmptyObject(c._list) ? c.createCountryList(c) : c.destroyCountryList(c);
       });
@@ -117,6 +121,9 @@
           e.selectCountry(e, $(this));
           e.destroyCountryList(e);
         });
+		if(val.phoneCode === e._ccSelectedCountry.phoneCode){
+			$(l).addClass("cc-picker-selected-country");
+		}
       });
     },
     destroyCountryList: function (e) {
@@ -125,6 +132,7 @@
     },
     selectCountry: function (e, c) {
       var i = $(c).data("countryItem");
+	  this._ccSelectedCountry = i;
       e._ccPicker.html(e.createCountryListItem(i.code, i.phoneCode));
       e._ccDialCodeTrackerField.val(i.phoneCode);
     },
