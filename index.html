@@ -9,9 +9,12 @@
 		<script>
 			$( document ).ready(function() {
 				$("#phoneField1").CcPicker();
-				$("#phoneField1").CcPicker("setCountryByCode","ru");
+				$("#phoneField1").CcPicker("setCountryByCode","es");
 				$("#phoneField3").CcPicker({"countryCode":"us"});
 				$("#phoneField5").CcPicker();
+				$("#phoneField1").on("countrySelect", function(e, i){
+														alert(i.countryName + " " + i.phoneCode);
+													});
 			});
 		</script>
     </head>

@@ -134,7 +134,8 @@
       var i = $(c).data("countryItem");
 	  this._ccSelectedCountry = i;
       e._ccPicker.html(e.createCountryListItem(i.code, i.phoneCode));
-      e._ccDialCodeTrackerField.val(i.phoneCode);
+      e._ccDialCodeTrackerField.val(i.phoneCode, i.code, i.phoneCode);
+	  $(e.element).trigger("countrySelect", i);
     },
     createCountryListItem: function (countryCode, dialCode) {
       return '<div class="cc-picker-flag ' + countryCode.toLowerCase() + '"></div><span class="cc-picker-code">' + dialCode + '</span> ';
