@@ -81,6 +81,12 @@
 	  this._ccSelectedCountry = {code: this.options.countryCode.toLowerCase(), phoneCode: cc.phoneCode};
       this._ccPicker.on("click", function () {
         $.isEmptyObject(c._list) ? c.createCountryList(c) : c.destroyCountryList(c);
+	e.stopPropagation();
+      });
+	$("body").on("click", function () {
+        if (!$.isEmptyObject(c._list)) {
+          c.destroyCountryList(c);
+        }
       });
     },
     loadCountryData: function (e) {
