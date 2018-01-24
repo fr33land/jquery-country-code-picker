@@ -1,5 +1,5 @@
 /*
- * jQuery Country code picker plugin v 0.3 
+ * jQuery Country code picker plugin v 0.6 
  * https://github.com/fr33land/jquery-country-code-picker
  * 
  * Author: Rokas Sabaliauskas(fr33land) 
@@ -28,7 +28,9 @@
   var defaults = {
     countryCode: "LT",
     dialCodeFieldName: "phoneCode",
-    dataUrl: "data.json"
+    dataUrl: "data.json",
+	countryFilter: true,
+    searchPlaceHolder: "Paieška"	
   };
 
 
@@ -39,6 +41,7 @@
     this._defaults = defaults;
     this._name = pluginName;
     this._list = {};
+	this._filter = {};
     this._ccData = {};
     this._ccPicker = {};
     this._ccDialCodeTrackerField = {};
@@ -79,7 +82,7 @@
       }).insertAfter(this.element);
       this._ccPicker.prepend(this.createCountryListItem(this.options.countryCode.toLowerCase(), cc.phoneCode));
 	  this._ccSelectedCountry = {code: this.options.countryCode.toLowerCase(), phoneCode: cc.phoneCode};
-      this._ccPicker.on("click", function () {
+      this._ccPicker.on("click", function (e) {
         $.isEmptyObject(c._list) ? c.createCountryList(c) : c.destroyCountryList(c);
 	e.stopPropagation();
       });
@@ -115,7 +118,7 @@
       var zIndex = e._ccPicker.css("z-index") === "auto" ? 0 : Number(e._ccPicker.css("z-index")) + 10;
       e._list = $("<ul/>", {"class": "cc-picker-code-list"}).appendTo("body");
       e._list.css({
-        top: e._ccPicker.offset().top + e._ccPicker.outerHeight(),
+        top: e._ccPicker.offset().top + e._ccPicker.outerHeight() + (e.options.countryFilter === true ? 25 : 0),
         left: e._ccPicker.offset().left,
         "z-index": zIndex
       });
@@ -131,10 +134,32 @@
 			$(l).addClass("cc-picker-selected-country");
 		}
       });
+
+	  if (e.options.countryFilter) {
+        e._filter = $("<input/>", {"class": "cc-picker-code-filter", "placeholder": e.options.searchPlaceHolder}).insertBefore(e._list);
+        e._filter.css({
+          top: e._ccPicker.offset().top + e._ccPicker.outerHeight(),
+          left: e._ccPicker.offset().left,
+          "z-index": zIndex
+        });
+        e._filter.on("click", function (e) {
+          e.stopPropagation();
+        });
+        e._filter.on("keyup", function (e) {
+          var text = $(this).val();
+          $('.cc-picker-code-list li:not(contains("' + text + '"))').hide();
+          $('.cc-picker-code-list li:contains("' + text + '")').show();
+        });
+      }
     },
     destroyCountryList: function (e) {
       e._list.remove();
       e._list = {};
+	  
+	  if (e.options.countryFilter) {
+        e._filter.remove();
+        e._filter = {};
+      }
     },
     selectCountry: function (e, c) {
       var i = $(c).data("countryItem");
@@ -148,6 +173,18 @@
     }
   });
 
+   $.extend($.expr[":"], {
+    contains: function (a, i, m) {
+      return $(a).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
+    }
+  });
+  
+ /* $.expr[":"].ccContains = $.expr.createPseudo(function(arg) {
+    return function( elem ) {
+        return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+    };
+});*/
+  
   $.fn.CcPicker = function (options) {
     if (typeof arguments[0] === 'string') {
       var methodName = arguments[0];
