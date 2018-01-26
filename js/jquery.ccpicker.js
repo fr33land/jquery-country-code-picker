@@ -1,5 +1,5 @@
 /*
- * jQuery Country code picker plugin v 0.6 
+ * jQuery Country code picker plugin v 0.7 
  * https://github.com/fr33land/jquery-country-code-picker
  * 
  * Author: Rokas Sabaliauskas(fr33land) 
@@ -53,6 +53,7 @@
       self._ccPicker.html(self.createCountryListItem(cc.code, cc.phoneCode));
 	  self._ccDialCodeTrackerField.val(cc.phoneCode);
 	  self._ccSelectedCountry = {code: cc.code, phoneCode: cc.phoneCode};
+	  $(self.element).trigger("countrySelect", cc);
     }
 
     function setCountryByCode(code) {
@@ -60,6 +61,7 @@
       self._ccPicker.html(self.createCountryListItem(cc.code, cc.phoneCode));
 	  self._ccDialCodeTrackerField.val(cc.phoneCode);
 	  self._ccSelectedCountry = {code: cc.code, phoneCode: cc.phoneCode};
+	  $(self.element).trigger("countrySelect", cc);
     }
 
     return {
