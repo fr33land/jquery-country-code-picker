@@ -1,7 +1,7 @@
 # JQuery country dial code picker plugin
 jQuery country dial code picker plugin (jQuery +1.7)
 
-Plugin adds dropdown list of countries with dial codes to the choosen html input text element. It is possible to use plain json text file or remote json datasource as countries codes list. The example of JSON data structure is in data.json file. It is possible to initialize several ccPicker instances in same page on different HTML input elements.
+Plugin adds dropdown list of countries with dial codes to the choosen html input text element. It is possible to use plain json text file or remote json datasource as countries codes list. The example of JSON data structure is in data.json file. It is possible to initialize several ccPicker instances in same page on different HTML input elements. You can find demo in index.html file.
 
 ## Features
 * Local or remote JSON datasource option
@@ -9,6 +9,7 @@ Plugin adds dropdown list of countries with dial codes to the choosen html input
 * Public methods for changing country by iso and phone code
 * Registered country select event
 * Flag icons
+* Plugin comes without validation so you are free to use any external validation library
 
 ## Usage
 Start using plugin in your page by adding js and css files. Also don't forgrt to add jQuery library.
@@ -17,4 +18,16 @@ Start using plugin in your page by adding js and css files. Also don't forgrt to
 <script src="https://code.jquery.com/jquery-x.x.x.min.js" type="text/javascript"></script>
 <script src="js/jquery.ccpicker.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="css/jquery.ccpicker.css">
+```
+
+Add html input to your page and initialise plugin (with or without options).
+
+```html
+<script>
+			$( document ).ready(function() {
+				$("#phoneField").CcPicker();
+			});
+</script>
+
+<input type="text" id="phoneField" name="phoneField" class="phone-field"/>
 ```
