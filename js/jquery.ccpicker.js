@@ -63,10 +63,28 @@
 	  self._ccSelectedCountry = {code: cc.code, phoneCode: cc.phoneCode};
 	  $(self.element).trigger("countrySelect", cc);
     }
+	  
+   function disable() {
+      $(self.element).prop('disabled', true);
+      self._ccPicker.off("click");
+      self._ccPicker.css("cursor", "default");
+    }
+
+    function enable() {
+      $(self.element).prop('disabled', false);
+      self._ccPicker.off("click");
+      self._ccPicker.on("click", function (e) {
+        $.isEmptyObject(self._list) ? self.createCountryList(self) : self.destroyCountryList(self);
+        e.stopPropagation();
+      });
+      self._ccPicker.css("cursor", "pointer");
+    }
 
     return {
       setCountryByPhoneCode: setCountryByPhoneCode,
-      setCountryByCode: setCountryByCode
+      setCountryByCode: setCountryByCode,
+      disable: disable,
+      enable: enable
     };
   }
 
