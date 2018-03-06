@@ -35,27 +35,27 @@ Add html input to your page and initialise plugin (with or without options).
 
 **countryCode** 
 Sets default plugin's country code.
-* Value: **String**
+* Type: **String**
 * Default: **LT**
 
 **dialCodeFieldName**
 HTML input field name for using in jQuery selector.
-* Value: **String**
+* Type: **String**
 * Default: **phoneCode**
 
 **dataUrl**
 JSON datasource url
-* Value: **String**
+* Type: **String**
 * Default: **data.json**
 
 **countryFilter**
 Enable or disable country filter. 
-* Value: **true/false**
+* Type: **Boolean**
 * Default: **true**
 
 **searchPlaceHolder**
 Change filter search field placeholder caption. 
-* Value: **String**
+* Type: **String**
 * Default: **Search**
 
 ***Usage example***
