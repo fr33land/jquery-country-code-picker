@@ -58,12 +58,11 @@ Change filter search field placeholder caption.
 Value: **String**
 Default: **Search**
 
-Usage example
+***Usage example***
 
 ```js
 $("#phoneField").CcPicker({ countryCode: "ES", dataUrl: "http://server/countries.json", searchPlaceHolder: "Find..." });
 ```
-
 
 ### Public functions
 
@@ -73,21 +72,16 @@ Param: **String**
 Example: **setCountryByPhoneCode('370')**
 
 **setCountryByCode**
-
 Set country based on country code.
-
 Param: **String**
-
 Example: **setCountryByCode('FR')**
-
 
 ### Plugin events
 
 **countrySelect**
-
 Event is triggered after dropdown country is selected
 
-Usage example
+***Usage example***
 
 ```js
 $("#phoneField").on("countrySelect", function(e, i){});
