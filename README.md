@@ -61,7 +61,7 @@ Change filter search field placeholder caption.
 ***Usage example***
 
 ```js
-$("#phoneField").CcPicker({ countryCode: "ES", dataUrl: "http://server/countries.json", searchPlaceHolder: "Find..." });
+$("#phoneField").CcPicker({ countryCode: "fr", dataUrl: "http://server/countries.json", searchPlaceHolder: "Find..." });
 ```
 
 ### Public functions
