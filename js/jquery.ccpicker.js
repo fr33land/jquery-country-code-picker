@@ -1,5 +1,5 @@
 /*
- * jQuery Country code picker plugin v 0.7 
+ * jQuery Country code picker plugin v 0.8 
  * https://github.com/fr33land/jquery-country-code-picker
  * 
  * Author: Rokas Sabaliauskas(fr33land) 
@@ -30,7 +30,7 @@
     dialCodeFieldName: "phoneCode",
     dataUrl: "data.json",
 	countryFilter: true,
-    searchPlaceHolder: "Paieška"	
+    searchPlaceHolder: "Search"	
   };
 
 
@@ -149,8 +149,8 @@
         });
         e._filter.on("keyup", function (e) {
           var text = $(this).val();
-          $('.cc-picker-code-list li:not(contains("' + text + '"))').hide();
-          $('.cc-picker-code-list li:contains("' + text + '")').show();
+          $('.cc-picker-code-list li:not(:ccContains("' + text + '"))').hide();
+          $('.cc-picker-code-list li:ccContains("' + text + '")').show();
         });
       }
     },
@@ -176,17 +176,11 @@
   });
 
    $.extend($.expr[":"], {
-    contains: function (a, i, m) {
+    ccContains: function (a, i, m) {
       return $(a).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
     }
   });
-  
- /* $.expr[":"].ccContains = $.expr.createPseudo(function(arg) {
-    return function( elem ) {
-        return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
-    };
-});*/
-  
+   
   $.fn.CcPicker = function (options) {
     if (typeof arguments[0] === 'string') {
       var methodName = arguments[0];
