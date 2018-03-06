@@ -1,5 +1,5 @@
 /*
- * jQuery Country code picker plugin v 0.8 
+ * jQuery Country code picker plugin v 0.9 
  * https://github.com/fr33land/jquery-country-code-picker
  * 
  * Author: Rokas Sabaliauskas(fr33land) 
