@@ -86,6 +86,24 @@ Set country based on country code.
 $("#phoneField").CcPicker("countryCode","es");
 ```
 
+**disable**
+Disable ccPicker component
+
+***Usage example***
+
+```js
+$("#phoneField").CcPicker("disable");
+```
+
+**enable**
+Enable ccPicker component
+
+***Usage example***
+
+```js
+$("#phoneField").CcPicker("enable");
+```
+
 ### Plugin events
 
 **countrySelect**
