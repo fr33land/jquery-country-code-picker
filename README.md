@@ -32,7 +32,7 @@ Add html input to your page and initialise plugin (with or without options).
 ```
 ### Options
 
-#### **countryCode** ####  
+##### **countryCode** #####  
 Sets default plugin's country code.
 Value: **String**
 Default: **LT**
