@@ -30,6 +30,7 @@ Add html input to your page and initialise plugin (with or without options).
 
 <input type="text" id="phoneField" name="phoneField" class="phone-field"/>
 ```
+
 ### Options
 
 **countryCode** 
@@ -63,6 +64,7 @@ Usage example
 $("#phoneField").CcPicker({ countryCode: "ES", dataUrl: "http://server/countries.json", searchPlaceHolder: "Find..." });
 ```
 
+
 ### Public functions
 
 **setCountryByPhoneCode**
@@ -71,13 +73,18 @@ Param: **String**
 Example: **setCountryByPhoneCode('370')**
 
 **setCountryByCode**
+
 Set country based on country code.
+
 Param: **String**
+
 Example: **setCountryByCode('FR')**
+
 
 ### Plugin events
 
 **countrySelect**
+
 Event is triggered after dropdown country is selected
 
 Usage example
