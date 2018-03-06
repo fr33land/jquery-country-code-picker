@@ -32,27 +32,27 @@ Add html input to your page and initialise plugin (with or without options).
 ```
 ### Options
 
-##### **countryCode** #####  
+**countryCode** 
 Sets default plugin's country code.
 Value: **String**
 Default: **LT**
 
-#### **dialCodeFieldName** ####  
+**dialCodeFieldName**
 HTML input field name for using in jQuery selector
 Value: **String**
 Default: **phoneCode**
 
-#### **dataUrl** ####
+**dataUrl**
 JSON datasource url
 Value: **String**
 Default: **data.json**
 
-#### **countryFilter** ####
+**countryFilter**
 Enable or disable country filter. 
 Value: **true/false**
 Default: **true**
 
-#### **searchPlaceHolder** ####
+**searchPlaceHolder**
 Change filter search field placeholder caption. 
 Value: **String**
 Default: **Search**
@@ -62,3 +62,17 @@ Usage example
 ```js
 $("#phoneField").CcPicker({ countryCode: "ES", dataUrl: "http://server/countries.json", searchPlaceHolder: "Find..." });
 ```
+
+### Public functions
+
+**setCountryByPhoneCode**
+Set country based on phone code.
+Param: **String**
+Example: **setCountryByPhoneCode('370')**
+
+**setCountryByCode**
+Set country based on country code.
+Param: **String**
+Example: **setCountryByCode('FR')**
+
+### Plugin events
