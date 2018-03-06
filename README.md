@@ -60,9 +60,5 @@ Default: **Search**
 Usage example
 
 ```js
-$("#phoneField1").CcPicker({
-									 countryCode: "ES", 
-									 dataUrl: "http://server.com/countries.json", 
-									 searchPlaceHolder: "Find..."
-									});
+$("#phoneField1").CcPicker({ countryCode: "ES", dataUrl: "http://server/countries.json", searchPlaceHolder: "Find..." });
 ```
