@@ -69,12 +69,22 @@ $("#phoneField").CcPicker({ countryCode: "ES", dataUrl: "http://server/countries
 **setCountryByPhoneCode**
 Set country based on phone code.
 * Param: **String**
-* Example: **setCountryByPhoneCode('370')**
+
+***Usage example***
+
+```js
+$("#phoneField").CcPicker("setCountryByPhoneCode","370");
+```
 
 **setCountryByCode**
 Set country based on country code.
 * Param: **String**
-* Example: **setCountryByCode('FR')**
+
+***Usage example***
+
+```js
+$("#phoneField").CcPicker("countryCode","es");
+```
 
 ### Plugin events
 
