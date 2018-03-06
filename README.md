@@ -96,3 +96,9 @@ Event is triggered after dropdown country is selected
 ```js
 $("#phoneField").on("countrySelect", function(e, i){});
 ```
+
+## Browser support
+
+| Chrome |  FF  | Safari |  IE  | Edge | Opera |
+| :----: | :--: | :----: | :--: | :--: | :---: |
+|    X   |   ✓  |    ✓   |  8+  |   ✓ |   X   |
