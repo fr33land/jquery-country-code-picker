@@ -1,7 +1,7 @@
 # JQuery country dial code picker plugin
 jQuery country dial code picker plugin (jQuery +1.7)
 
-Plugin adds dropdown list of countries with dial codes to the choosen html input text element. It is possible to use plain json text file or remote json datasource as countries codes list. The example of JSON data structure is in data.json file. It is possible to initialize several ccPicker instances in same page on different HTML input elements. You can find demo in index.html file. Plugin is very lightweight. It comes without validation and doesn't use any UI library (jQuery UI, bootsrap) so you are free to use any external UI and validation libraries
+Plugin adds dropdown list of countries with dial codes to the choosen html input text element. It is possible to use plain json text file or remote json datasource as countries codes list. The example of JSON data structure is in data.json file. It is possible to initialize several ccPicker instances in same page on different HTML input elements. You can find demo in index.html file. Plugin is very lightweight. It comes without validation and doesn't use any UI library (jQuery UI, bootsrap) so you are free to use any external UI and validation libraries. This approach doesn't tie user to specific frameworks.
 
 ## Features
 * Local or remote JSON datasource option
@@ -32,3 +32,37 @@ Add html input to your page and initialise plugin (with or without options).
 ```
 ### Options
 
+**countryCode**  
+Sets default plugin's country code.
+Value: **String**
+Default: **LT**
+
+**dialCodeFieldName**  
+HTML input field name for using in jQuery selector
+Value: **String**
+Default: **phoneCode**
+
+**dataUrl**
+JSON datasource url
+Value: **String**
+Default: **data.json**
+
+**countryFilter**
+Enable or disable country filter. 
+Value: **true/false**
+Default: **true**
+
+**searchPlaceHolder**
+Change filter search field placeholder caption. 
+Value: **String**
+Default: **Search**
+
+Usage example
+
+```js
+$("#phoneField1").CcPicker({
+									 countryCode: "ES", 
+									 dataUrl: "http://server.com/countries.json", 
+									 searchPlaceHolder: "Find..."
+									});
+```
