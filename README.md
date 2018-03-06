@@ -24,9 +24,9 @@ Add html input to your page and initialise plugin (with or without options).
 
 ```html
 <script>
-			$( document ).ready(function() {
-				$("#phoneField").CcPicker();
-			});
+   $( document ).ready(function() {
+      $("#phoneField").CcPicker();
+   });
 </script>
 
 <input type="text" id="phoneField" name="phoneField" class="phone-field"/>
