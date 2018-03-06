@@ -76,3 +76,12 @@ Param: **String**
 Example: **setCountryByCode('FR')**
 
 ### Plugin events
+
+**countrySelect**
+Event is triggered after dropdown country is selected
+
+Usage example
+
+```js
+$("#phoneField").on("countrySelect", function(e, i){});
+```
