@@ -1,0 +1,26 @@
+{
+    "name": "jquery-country-code-picker",
+    "version": "0.9.5",
+    "dependencies": {
+        "jquery": ">=1.7"
+    },
+    "description": "JQuery country dial code picker plugin",
+    "main": "js/jquery.ccpicker.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fr33land/jquery-country-code-picker.git"
+    },
+    "keywords": [
+        "country code picker",
+        "country",
+        "code picker",
+        "plugin",
+        "phone"
+    ],
+    "author": "Rokas (fr33land)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fr33land/jquery-country-code-picker/issues"
+    },
+    "homepage": "https://github.com/fr33land/jquery-country-code-picker"
+}
