@@ -54,6 +54,7 @@
       var cc = self.findCountryByPhoneCode(self, code);
       self._ccPicker.html(self.createCountryListItem(cc.code, cc.phoneCode));
 	  self._ccDialCodeTrackerField.val(cc.phoneCode);
+	    self._ccCountryCodeTrackerField.val(cc.code);
 	  self._ccSelectedCountry = {code: cc.code, phoneCode: cc.phoneCode};
 	  $(self.element).trigger("countrySelect", cc);
     }
@@ -62,6 +63,7 @@
       var cc = self.findCountryByCountryCode(self, code);
       self._ccPicker.html(self.createCountryListItem(cc.code, cc.phoneCode));
 	  self._ccDialCodeTrackerField.val(cc.phoneCode);
+	    self._ccCountryCodeTrackerField.val(cc.code);
 	  self._ccSelectedCountry = {code: cc.code, phoneCode: cc.phoneCode};
 	  $(self.element).trigger("countrySelect", cc);
     }
@@ -193,7 +195,7 @@
 	  this._ccSelectedCountry = i;
       e._ccPicker.html(e.createCountryListItem(i.code, i.phoneCode));
       e._ccCountryCodeTrackerField.val(i.code);
-	    e._ccDialCodeTrackerField.val(i.code);
+	    e._ccDialCodeTrackerField.val(i.phoneCode);
 	  $(e.element).trigger("countrySelect", i);
     },
     createCountryListItem: function (countryCode, dialCode) {
