@@ -1,5 +1,5 @@
 /*
- * jQuery Country code picker plugin v 0.9 
+ * jQuery Country code picker plugin v 0.9.1 
  * https://github.com/fr33land/jquery-country-code-picker
  * 
  * Author: Rokas Sabaliauskas(fr33land) 
@@ -28,6 +28,7 @@
   var defaults = {
     countryCode: "LT",
     dialCodeFieldName: "phoneCode",
+	  countryCodeFieldName: "countryCode",
     dataUrl: "data.json",
 	countryFilter: true,
     searchPlaceHolder: "Search"	
@@ -45,6 +46,7 @@
     this._ccData = {};
     this._ccPicker = {};
     this._ccDialCodeTrackerField = {};
+	  this._ccCountryCodeTrackerField = {};
 	this._ccSelectedCountry = {};
     this.init();
 
@@ -100,13 +102,18 @@
         name: this.element.name + "_" + this.options.dialCodeFieldName,
         value: cc.phoneCode
       }).insertAfter(this.element);
+      this._ccCountryCodeTrackerField = $('<input>').attr({
+        type: 'hidden',
+        id: this.element.id + "_" + this.options.countryCodeFieldName,
+        name: this.element.name + "_" + this.options.countryCodeFieldName,
+        value: cc.code
+      }).insertAfter(this.element);
       this._ccPicker.prepend(this.createCountryListItem(this.options.countryCode.toLowerCase(), cc.phoneCode));
-	  this._ccSelectedCountry = {code: this.options.countryCode.toLowerCase(), phoneCode: cc.phoneCode};
       this._ccPicker.on("click", function (e) {
         $.isEmptyObject(c._list) ? c.createCountryList(c) : c.destroyCountryList(c);
-	e.stopPropagation();
+        e.stopPropagation();
       });
-	$("body").on("click", function () {
+      $("body").on("click", function () {
         if (!$.isEmptyObject(c._list)) {
           c.destroyCountryList(c);
         }
@@ -185,7 +192,8 @@
       var i = $(c).data("countryItem");
 	  this._ccSelectedCountry = i;
       e._ccPicker.html(e.createCountryListItem(i.code, i.phoneCode));
-      e._ccDialCodeTrackerField.val(i.phoneCode, i.code, i.phoneCode);
+      e._ccCountryCodeTrackerField.val(i.code);
+	    e._ccDialCodeTrackerField.val(i.code);
 	  $(e.element).trigger("countrySelect", i);
     },
     createCountryListItem: function (countryCode, dialCode) {
