@@ -1,6 +1,6 @@
 {
     "name": "jquery-country-code-picker",
-    "version": "0.9.5",
+    "version": "1.0",
     "dependencies": {
         "jquery": ">=1.7"
     },
