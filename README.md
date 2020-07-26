@@ -58,6 +58,11 @@ Change filter search field placeholder caption.
 * Type: **String**
 * Default: **Search**
 
+**language** - 
+Change language (en,ar) 
+* Type: **String**
+* Default: **en**
+
 ***Usage example***
 
 ```js

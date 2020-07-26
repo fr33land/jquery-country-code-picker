@@ -29,7 +29,7 @@
     countryCode: "LT",
     dialCodeFieldName: "phoneCode",
 	  countryCodeFieldName: "countryCode",
-    dataUrl: "data.json",
+    dataUrl: "data/",
 	countryFilter: true,
     searchPlaceHolder: "Search"	
   };
@@ -122,9 +122,10 @@
       });
     },
     loadCountryData: function (e) {
+      var lang = e.options.language;
        $.ajax({
         dataType: 'json',
-        url: e.options.dataUrl,
+        url:(lang!==undefined)?e.options.dataUrl+lang+".json":e.options.dataUrl+"en.json",
 		type: 'get',
         async: false,
         success: function (data) {

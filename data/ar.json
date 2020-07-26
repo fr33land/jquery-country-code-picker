@@ -1,0 +1,1237 @@
+﻿[
+  {
+    "countryName": "أفغانستان",
+    "code": "AF",
+    "phoneCode": "93"
+  },
+  {
+    "countryName": "جزيرة آيلاند",
+    "code": "AX",
+    "phoneCode": "358"
+  },
+  {
+    "countryName": "ألبانيا",
+    "code": "AL",
+    "phoneCode": "355"
+  },
+  {
+    "countryName": "الجزائر",
+    "code": "DZ",
+    "phoneCode": "213"
+  },
+  {
+    "countryName": "ساموا الأمريكية",
+    "code": "AS",
+    "phoneCode": "1684"
+  },
+  {
+    "countryName": "أندورا",
+    "code": "AD",
+    "phoneCode": "376"
+  },
+  {
+    "countryName": "أنغولا",
+    "code": "AO",
+    "phoneCode": "244"
+  },
+  {
+    "countryName": "أنغيلا",
+    "code": "AI",
+    "phoneCode": "1264"
+  },
+  {
+    "countryName": "أنتيغوا وبربودا",
+    "code": "AG",
+    "phoneCode": "1268"
+  },
+  {
+    "countryName": "الأرجنتين",
+    "code": "AR",
+    "phoneCode": "54"
+  },
+  {
+    "countryName": "أرمينيا",
+    "code": "AM",
+    "phoneCode": "374"
+  },
+  {
+    "countryName": "أروبا",
+    "code": "AW",
+    "phoneCode": "297"
+  },
+  {
+    "countryName": "أستراليا",
+    "code": "AU",
+    "phoneCode": "61"
+  },
+  {
+    "countryName": "النمسا",
+    "code": "AT",
+    "phoneCode": "43"
+  },
+  {
+    "countryName": "أذربيجان",
+    "code": "AZ",
+    "phoneCode": "994"
+  },
+  {
+    "countryName": "جزر البهاما",
+    "code": "BS",
+    "phoneCode": "1242"
+  },
+  {
+    "countryName": "البحرين",
+    "code": "BH",
+    "phoneCode": "973"
+  },
+  {
+    "countryName": "بنغلاديش",
+    "code": "BD",
+    "phoneCode": "880"
+  },
+  {
+    "countryName": "بربادوس",
+    "code": "BB",
+    "phoneCode": "1246"
+  },
+  {
+    "countryName": "روسيا البيضاء",
+    "code": "BY",
+    "phoneCode": "375"
+  },
+  {
+    "countryName": "بلجيكا",
+    "code": "BE",
+    "phoneCode": "32"
+  },
+  {
+    "countryName": "بليز",
+    "code": "BZ",
+    "phoneCode": "501"
+  },
+  {
+    "countryName": "بنين",
+    "code": "BJ",
+    "phoneCode": "229"
+  },
+  {
+    "countryName": "برمودا",
+    "code": "BM",
+    "phoneCode": "1441"
+  },
+  {
+    "countryName": "بوتان",
+    "code": "BT",
+    "phoneCode": "975"
+  },
+  {
+    "countryName": "بوليفيا",
+    "code": "BO",
+    "phoneCode": "591"
+  },
+  {
+    "countryName": "البوسنة والهرسك",
+    "code": "BA",
+    "phoneCode": "387"
+  },
+  {
+    "countryName": "بوتسوانا",
+    "code": "BW",
+    "phoneCode": "267"
+  },
+  {
+    "countryName": "البرازيل",
+    "code": "BR",
+    "phoneCode": "55"
+  },
+  {
+    "countryName": "إقليم المحيط البريطاني الهندي",
+    "code": "IO",
+    "phoneCode": "246"
+  },
+  {
+    "countryName": "جزر فيرجن البريطانية",
+    "code": "VG",
+    "phoneCode": "1284"
+  },
+  {
+    "countryName": "بروناي",
+    "code": "BN",
+    "phoneCode": "673"
+  },
+  {
+    "countryName": "بلغاريا",
+    "code": "BG",
+    "phoneCode": "359"
+  },
+  {
+    "countryName": "بوركينا فاسو",
+    "code": "BF",
+    "phoneCode": "226"
+  },
+  {
+    "countryName": "بوروندي",
+    "code": "BI",
+    "phoneCode": "257"
+  },
+  {
+    "countryName": "كمبوديا",
+    "code": "KH",
+    "phoneCode": "855"
+  },
+  {
+    "countryName": "الكاميرون",
+    "code": "CM",
+    "phoneCode": "237"
+  },
+  {
+    "countryName": "كندا",
+    "code": "CA",
+    "phoneCode": "1"
+  },
+  {
+    "countryName": "الرأس الأخضر",
+    "code": "CV",
+    "phoneCode": "238"
+  },
+  {
+    "countryName": "جزر كايمان",
+    "code": "KY",
+    "phoneCode": "1345"
+  },
+  {
+    "countryName": "جمهورية افريقيا الوسطى",
+    "code": "CF",
+    "phoneCode": "236"
+  },
+  {
+    "countryName": "تشاد",
+    "code": "TD",
+    "phoneCode": "235"
+  },
+  {
+    "countryName": "تشيلي",
+    "code": "CL",
+    "phoneCode": "56"
+  },
+  {
+    "countryName": "الصين",
+    "code": "CN",
+    "phoneCode": "86"
+  },
+  {
+    "countryName": "جزيرة الكريسماس",
+    "code": "CX",
+    "phoneCode": "61"
+  },
+  {
+    "countryName": "جزر كوكوس (كيلنج)",
+    "code": "CC",
+    "phoneCode": "61"
+  },
+  {
+    "countryName": "كولومبيا",
+    "code": "CO",
+    "phoneCode": "57"
+  },
+  {
+    "countryName": "جزر القمر",
+    "code": "KM",
+    "phoneCode": "269"
+  },
+  {
+    "countryName": "جزر كوك",
+    "code": "CK",
+    "phoneCode": "682"
+  },
+  {
+    "countryName": "كوستا ريكا",
+    "code": "CR",
+    "phoneCode": "506"
+  },
+  {
+    "countryName": "كرواتيا",
+    "code": "HR",
+    "phoneCode": "385"
+  },
+  {
+    "countryName": "كوبا",
+    "code": "CU",
+    "phoneCode": "53"
+  },
+  {
+    "countryName": "كوراساو",
+    "code": "CW",
+    "phoneCode": "5999"
+  },
+  {
+    "countryName": "قبرص",
+    "code": "CY",
+    "phoneCode": "357"
+  },
+  {
+    "countryName": "تشيكيا",
+    "code": "CZ",
+    "phoneCode": "420"
+  },
+  {
+    "countryName": "جمهورية الكونغو الديمقراطية",
+    "code": "CD",
+    "phoneCode": "243"
+  },
+  {
+    "countryName": "الدنمارك",
+    "code": "DK",
+    "phoneCode": "45"
+  },
+  {
+    "countryName": "جيبوتي",
+    "code": "DJ",
+    "phoneCode": "253"
+  },
+  {
+    "countryName": "دومينيكا",
+    "code": "DM",
+    "phoneCode": "1767"
+  },
+  {
+    "countryName": "جمهورية الدومنيكان",
+    "code": "DO",
+    "phoneCode": "1809"
+  },
+  {
+    "countryName": "جمهورية الدومنيكان",
+    "code": "DO",
+    "phoneCode": "1829"
+  },
+  {
+    "countryName": "جمهورية الدومنيكان",
+    "code": "DO",
+    "phoneCode": "1849"
+  },
+  {
+    "countryName": "إكوادور",
+    "code": "EC",
+    "phoneCode": "593"
+  },
+  {
+    "countryName": "مصر",
+    "code": "EG",
+    "phoneCode": "20"
+  },
+  {
+    "countryName": "السلفادور",
+    "code": "SV",
+    "phoneCode": "503"
+  },
+  {
+    "countryName": "غينيا الإستوائية",
+    "code": "GQ",
+    "phoneCode": "240"
+  },
+  {
+    "countryName": "إريتريا",
+    "code": "ER",
+    "phoneCode": "291"
+  },
+  {
+    "countryName": "إستونيا",
+    "code": "EE",
+    "phoneCode": "372"
+  },
+  {
+    "countryName": "أثيوبيا",
+    "code": "ET",
+    "phoneCode": "251"
+  },
+  {
+    "countryName": "جزر فوكلاند",
+    "code": "FK",
+    "phoneCode": "500"
+  },
+  {
+    "countryName": "جزر فاروس",
+    "code": "FO",
+    "phoneCode": "298"
+  },
+  {
+    "countryName": "فيجي",
+    "code": "FJ",
+    "phoneCode": "679"
+  },
+  {
+    "countryName": "فنلندا",
+    "code": "FI",
+    "phoneCode": "358"
+  },
+  {
+    "countryName": "فرنسا",
+    "code": "FR",
+    "phoneCode": "33"
+  },
+  {
+    "countryName": "غيانا الفرنسية",
+    "code": "GF",
+    "phoneCode": "594"
+  },
+  {
+    "countryName": "بولينيزيا الفرنسية",
+    "code": "PF",
+    "phoneCode": "689"
+  },
+  {
+    "countryName": "الغابون",
+    "code": "GA",
+    "phoneCode": "241"
+  },
+  {
+    "countryName": "غامبيا",
+    "code": "GM",
+    "phoneCode": "220"
+  },
+  {
+    "countryName": "جورجيا",
+    "code": "GE",
+    "phoneCode": "995"
+  },
+  {
+    "countryName": "ألمانيا",
+    "code": "DE",
+    "phoneCode": "49"
+  },
+  {
+    "countryName": "غانا",
+    "code": "GH",
+    "phoneCode": "233"
+  },
+  {
+    "countryName": "جبل طارق",
+    "code": "GI",
+    "phoneCode": "350"
+  },
+  {
+    "countryName": "اليونان",
+    "code": "GR",
+    "phoneCode": "30"
+  },
+  {
+    "countryName": "الأرض الخضراء",
+    "code": "GL",
+    "phoneCode": "299"
+  },
+  {
+    "countryName": "غرينادا",
+    "code": "GD",
+    "phoneCode": "1473"
+  },
+  {
+    "countryName": "غواديلوب",
+    "code": "GP",
+    "phoneCode": "590"
+  },
+  {
+    "countryName": "غوام",
+    "code": "GU",
+    "phoneCode": "1671"
+  },
+  {
+    "countryName": "غواتيمالا",
+    "code": "GT",
+    "phoneCode": "502"
+  },
+  {
+    "countryName": "غيرنسي",
+    "code": "GG",
+    "phoneCode": "44"
+  },
+  {
+    "countryName": "غينيا",
+    "code": "GN",
+    "phoneCode": "224"
+  },
+  {
+    "countryName": "غينيا بيساو",
+    "code": "GW",
+    "phoneCode": "245"
+  },
+  {
+    "countryName": "غيانا",
+    "code": "GY",
+    "phoneCode": "592"
+  },
+  {
+    "countryName": "هايتي",
+    "code": "HT",
+    "phoneCode": "509"
+  },
+  {
+    "countryName": "هندوراس",
+    "code": "HN",
+    "phoneCode": "504"
+  },
+  {
+    "countryName": "هونج كونج",
+    "code": "HK",
+    "phoneCode": "852"
+  },
+  {
+    "countryName": "المجر",
+    "code": "HU",
+    "phoneCode": "36"
+  },
+  {
+    "countryName": "أيسلندا",
+    "code": "IS",
+    "phoneCode": "354"
+  },
+  {
+    "countryName": "الهند",
+    "code": "IN",
+    "phoneCode": "91"
+  },
+  {
+    "countryName": "إندونيسيا",
+    "code": "ID",
+    "phoneCode": "62"
+  },
+  {
+    "countryName": "إيران",
+    "code": "IR",
+    "phoneCode": "98"
+  },
+  {
+    "countryName": "العراق",
+    "code": "IQ",
+    "phoneCode": "964"
+  },
+  {
+    "countryName": "أيرلندا",
+    "code": "IE",
+    "phoneCode": "353"
+  },
+  {
+    "countryName": "جزيرة مان",
+    "code": "IM",
+    "phoneCode": "44"
+  },
+  {
+    "countryName": "إسرائيل",
+    "code": "IL",
+    "phoneCode": "972"
+  },
+  {
+    "countryName": "إيطاليا",
+    "code": "IT",
+    "phoneCode": "39"
+  },
+  {
+    "countryName": "ساحل العاج",
+    "code": "CI",
+    "phoneCode": "225"
+  },
+  {
+    "countryName": "جامايكا",
+    "code": "JM",
+    "phoneCode": "1876"
+  },
+  {
+    "countryName": "اليابان",
+    "code": "JP",
+    "phoneCode": "81"
+  },
+  {
+    "countryName": "جيرسي",
+    "code": "JE",
+    "phoneCode": "44"
+  },
+  {
+    "countryName": "الأردن",
+    "code": "JO",
+    "phoneCode": "962"
+  },
+  {
+    "countryName": "كازاخستان",
+    "code": "KZ",
+    "phoneCode": "77"
+  },
+  {
+    "countryName": "كازاخستان",
+    "code": "KZ",
+    "phoneCode": "76"
+  },
+  {
+    "countryName": "كينيا",
+    "code": "KE",
+    "phoneCode": "254"
+  },
+  {
+    "countryName": "كيريباتي",
+    "code": "KI",
+    "phoneCode": "686"
+  },
+  {
+    "countryName": "كوسوفو",
+    "code": "XK",
+    "phoneCode": "383"
+  },
+  {
+    "countryName": "الكويت",
+    "code": "KW",
+    "phoneCode": "965"
+  },
+  {
+    "countryName": "قيرغيزستان",
+    "code": "KG",
+    "phoneCode": "996"
+  },
+  {
+    "countryName": "لاوس",
+    "code": "LA",
+    "phoneCode": "856"
+  },
+  {
+    "countryName": "لاتفيا",
+    "code": "LV",
+    "phoneCode": "371"
+  },
+  {
+    "countryName": "لبنان",
+    "code": "LB",
+    "phoneCode": "961"
+  },
+  {
+    "countryName": "ليسوتو",
+    "code": "LS",
+    "phoneCode": "266"
+  },
+  {
+    "countryName": "ليبيريا",
+    "code": "LR",
+    "phoneCode": "231"
+  },
+  {
+    "countryName": "ليبيا",
+    "code": "LY",
+    "phoneCode": "218"
+  },
+  {
+    "countryName": "ليختنشتاين",
+    "code": "LI",
+    "phoneCode": "423"
+  },
+  {
+    "countryName": "ليتوانيا",
+    "code": "LT",
+    "phoneCode": "370"
+  },
+  {
+    "countryName": "لوكسمبورج",
+    "code": "LU",
+    "phoneCode": "352"
+  },
+  {
+    "countryName": "ماكاو",
+    "code": "MO",
+    "phoneCode": "853"
+  },
+  {
+    "countryName": "مقدونيا",
+    "code": "MK",
+    "phoneCode": "389"
+  },
+  {
+    "countryName": "مدغشقر",
+    "code": "MG",
+    "phoneCode": "261"
+  },
+  {
+    "countryName": "ملاوي",
+    "code": "MW",
+    "phoneCode": "265"
+  },
+  {
+    "countryName": "ماليزيا",
+    "code": "MY",
+    "phoneCode": "60"
+  },
+  {
+    "countryName": "جزر المالديف",
+    "code": "MV",
+    "phoneCode": "960"
+  },
+  {
+    "countryName": "مالي",
+    "code": "ML",
+    "phoneCode": "223"
+  },
+  {
+    "countryName": "مالطا",
+    "code": "MT",
+    "phoneCode": "356"
+  },
+  {
+    "countryName": "جزر مارشال",
+    "code": "MH",
+    "phoneCode": "692"
+  },
+  {
+    "countryName": "مارتينيك",
+    "code": "MQ",
+    "phoneCode": "596"
+  },
+  {
+    "countryName": "موريتانيا",
+    "code": "MR",
+    "phoneCode": "222"
+  },
+  {
+    "countryName": "موريشيوس",
+    "code": "MU",
+    "phoneCode": "230"
+  },
+  {
+    "countryName": "مايوت",
+    "code": "YT",
+    "phoneCode": "262"
+  },
+  {
+    "countryName": "المكسيك",
+    "code": "MX",
+    "phoneCode": "52"
+  },
+  {
+    "countryName": "ميكرونيزيا",
+    "code": "FM",
+    "phoneCode": "691"
+  },
+  {
+    "countryName": "مولدوفا",
+    "code": "MD",
+    "phoneCode": "373"
+  },
+  {
+    "countryName": "موناكو",
+    "code": "MC",
+    "phoneCode": "377"
+  },
+  {
+    "countryName": "منغوليا",
+    "code": "MN",
+    "phoneCode": "976"
+  },
+  {
+    "countryName": "الجبل الأسود",
+    "code": "ME",
+    "phoneCode": "382"
+  },
+  {
+    "countryName": "مونتسيرات",
+    "code": "MS",
+    "phoneCode": "1664"
+  },
+  {
+    "countryName": "المغرب",
+    "code": "MA",
+    "phoneCode": "212"
+  },
+  {
+    "countryName": "موزمبيق",
+    "code": "MZ",
+    "phoneCode": "258"
+  },
+  {
+    "countryName": "ميانمار",
+    "code": "MM",
+    "phoneCode": "95"
+  },
+  {
+    "countryName": "ناميبيا",
+    "code": "NA",
+    "phoneCode": "264"
+  },
+  {
+    "countryName": "ناورو",
+    "code": "NR",
+    "phoneCode": "674"
+  },
+  {
+    "countryName": "نيبال",
+    "code": "NP",
+    "phoneCode": "977"
+  },
+  {
+    "countryName": "هولندا",
+    "code": "NL",
+    "phoneCode": "31"
+  },
+  {
+    "countryName": "كاليدونيا الجديدة",
+    "code": "NC",
+    "phoneCode": "687"
+  },
+  {
+    "countryName": "نيوزيلندا",
+    "code": "NZ",
+    "phoneCode": "64"
+  },
+  {
+    "countryName": "نيكاراغوا",
+    "code": "NI",
+    "phoneCode": "505"
+  },
+  {
+    "countryName": "النيجر",
+    "code": "NE",
+    "phoneCode": "227"
+  },
+  {
+    "countryName": "نيجيريا",
+    "code": "NG",
+    "phoneCode": "234"
+  },
+  {
+    "countryName": "نيوي",
+    "code": "NU",
+    "phoneCode": "683"
+  },
+  {
+    "countryName": "جزيرة نورفولك",
+    "code": "NF",
+    "phoneCode": "672"
+  },
+  {
+    "countryName": "كوريا الشمالية",
+    "code": "KP",
+    "phoneCode": "850"
+  },
+  {
+    "countryName": "جزر ماريانا الشمالية",
+    "code": "MP",
+    "phoneCode": "1670"
+  },
+  {
+    "countryName": "النرويج",
+    "code": "NO",
+    "phoneCode": "47"
+  },
+  {
+    "countryName": "عُمان",
+    "code": "OM",
+    "phoneCode": "968"
+  },
+  {
+    "countryName": "باكستان",
+    "code": "PK",
+    "phoneCode": "92"
+  },
+  {
+    "countryName": "بالاو",
+    "code": "PW",
+    "phoneCode": "680"
+  },
+  {
+    "countryName": "فلسطين",
+    "code": "PS",
+    "phoneCode": "970"
+  },
+  {
+    "countryName": "بنما",
+    "code": "PA",
+    "phoneCode": "507"
+  },
+  {
+    "countryName": "بابوا غينيا الجديدة",
+    "code": "PG",
+    "phoneCode": "675"
+  },
+  {
+    "countryName": "باراغواي",
+    "code": "PY",
+    "phoneCode": "595"
+  },
+  {
+    "countryName": "بيرو",
+    "code": "PE",
+    "phoneCode": "51"
+  },
+  {
+    "countryName": "الفلبين",
+    "code": "PH",
+    "phoneCode": "63"
+  },
+  {
+    "countryName": "جزر بيتكيرن",
+    "code": "PN",
+    "phoneCode": "64"
+  },
+  {
+    "countryName": "بولندا",
+    "code": "PL",
+    "phoneCode": "48"
+  },
+  {
+    "countryName": "البرتغال",
+    "code": "PT",
+    "phoneCode": "351"
+  },
+  {
+    "countryName": "بورتوريكو",
+    "code": "PR",
+    "phoneCode": "1787"
+  },
+  {
+    "countryName": "بورتوريكو",
+    "code": "PR",
+    "phoneCode": "1939"
+  },
+  {
+    "countryName": "قطر",
+    "code": "QA",
+    "phoneCode": "974"
+  },
+  {
+    "countryName": "جمهورية الكونغو",
+    "code": "CG",
+    "phoneCode": "242"
+  },
+  {
+    "countryName": "رومانيا",
+    "code": "RO",
+    "phoneCode": "40"
+  },
+  {
+    "countryName": "روسيا",
+    "code": "RU",
+    "phoneCode": "7"
+  },
+  {
+    "countryName": "رواندا",
+    "code": "RW",
+    "phoneCode": "250"
+  },
+  {
+    "countryName": "ريونيون",
+    "code": "RE",
+    "phoneCode": "262"
+  },
+  {
+    "countryName": "سانت بارتيليمي",
+    "code": "BL",
+    "phoneCode": "590"
+  },
+  {
+    "countryName": "سانت كيتس ونيفيس",
+    "code": "KN",
+    "phoneCode": "1869"
+  },
+  {
+    "countryName": "سانت لوسيا",
+    "code": "LC",
+    "phoneCode": "1758"
+  },
+  {
+    "countryName": "سانت مارتن",
+    "code": "MF",
+    "phoneCode": "590"
+  },
+  {
+    "countryName": "سانت بيير وميكلون",
+    "code": "PM",
+    "phoneCode": "508"
+  },
+  {
+    "countryName": "سانت فنسنت وجزر غرينادين",
+    "code": "VC",
+    "phoneCode": "1784"
+  },
+  {
+    "countryName": "ساموا",
+    "code": "WS",
+    "phoneCode": "685"
+  },
+  {
+    "countryName": "سان مارينو",
+    "code": "SM",
+    "phoneCode": "378"
+  },
+  {
+    "countryName": "المملكة العربية السعودية",
+    "code": "SA",
+    "phoneCode": "966"
+  },
+  {
+    "countryName": "السنغال",
+    "code": "SN",
+    "phoneCode": "221"
+  },
+  {
+    "countryName": "صربيا",
+    "code": "RS",
+    "phoneCode": "381"
+  },
+  {
+    "countryName": "سيشيل",
+    "code": "SC",
+    "phoneCode": "248"
+  },
+  {
+    "countryName": "سيراليون",
+    "code": "SL",
+    "phoneCode": "232"
+  },
+  {
+    "countryName": "سنغافورة",
+    "code": "SG",
+    "phoneCode": "65"
+  },
+  {
+    "countryName": "سينت مارتن",
+    "code": "SX",
+    "phoneCode": "1721"
+  },
+  {
+    "countryName": "سلوفاكيا",
+    "code": "SK",
+    "phoneCode": "421"
+  },
+  {
+    "countryName": "سلوفينيا",
+    "code": "SI",
+    "phoneCode": "386"
+  },
+  {
+    "countryName": "جزر سليمان",
+    "code": "SB",
+    "phoneCode": "677"
+  },
+  {
+    "countryName": "الصومال",
+    "code": "SO",
+    "phoneCode": "252"
+  },
+  {
+    "countryName": "جنوب إفريقيا",
+    "code": "ZA",
+    "phoneCode": "27"
+  },
+  {
+    "countryName": "جورجيا الجنوبية",
+    "code": "GS",
+    "phoneCode": "500"
+  },
+  {
+    "countryName": "كوريا الجنوبية",
+    "code": "KR",
+    "phoneCode": "82"
+  },
+  {
+    "countryName": "جنوب السودان",
+    "code": "SS",
+    "phoneCode": "211"
+  },
+  {
+    "countryName": "إسبانيا",
+    "code": "ES",
+    "phoneCode": "34"
+  },
+  {
+    "countryName": "سريلانكا",
+    "code": "LK",
+    "phoneCode": "94"
+  },
+  {
+    "countryName": "السودان",
+    "code": "SD",
+    "phoneCode": "249"
+  },
+  {
+    "countryName": "سورينام",
+    "code": "SR",
+    "phoneCode": "597"
+  },
+  {
+    "countryName": "سفالبارد وجان مايان",
+    "code": "SJ",
+    "phoneCode": "4779"
+  },
+  {
+    "countryName": "سوازيلاند",
+    "code": "SZ",
+    "phoneCode": "268"
+  },
+  {
+    "countryName": "السويد",
+    "code": "SE",
+    "phoneCode": "46"
+  },
+  {
+    "countryName": "سويسرا",
+    "code": "CH",
+    "phoneCode": "41"
+  },
+  {
+    "countryName": "سوريا",
+    "code": "SY",
+    "phoneCode": "963"
+  },
+  {
+    "countryName": "سان تومي وبرينسيبي",
+    "code": "ST",
+    "phoneCode": "239"
+  },
+  {
+    "countryName": "تايوان",
+    "code": "TW",
+    "phoneCode": "886"
+  },
+  {
+    "countryName": "طاجيكستان",
+    "code": "TJ",
+    "phoneCode": "992"
+  },
+  {
+    "countryName": "تنزانيا",
+    "code": "TZ",
+    "phoneCode": "255"
+  },
+  {
+    "countryName": "تايلاند",
+    "code": "TH",
+    "phoneCode": "66"
+  },
+  {
+    "countryName": "تيمور الشرقية",
+    "code": "TL",
+    "phoneCode": "670"
+  },
+  {
+    "countryName": "توغو",
+    "code": "TG",
+    "phoneCode": "228"
+  },
+  {
+    "countryName": "توكيلاو",
+    "code": "TK",
+    "phoneCode": "690"
+  },
+  {
+    "countryName": "تونغا",
+    "code": "TO",
+    "phoneCode": "676"
+  },
+  {
+    "countryName": "ترينيداد وتوباغو",
+    "code": "TT",
+    "phoneCode": "1868"
+  },
+  {
+    "countryName": "تونس",
+    "code": "TN",
+    "phoneCode": "216"
+  },
+  {
+    "countryName": "تركيا",
+    "code": "TR",
+    "phoneCode": "90"
+  },
+  {
+    "countryName": "تركمانستان",
+    "code": "TM",
+    "phoneCode": "993"
+  },
+  {
+    "countryName": "جزر تركس وكايكوس",
+    "code": "TC",
+    "phoneCode": "1649"
+  },
+  {
+    "countryName": "توفالو",
+    "code": "TV",
+    "phoneCode": "688"
+  },
+  {
+    "countryName": "أوغندا",
+    "code": "UG",
+    "phoneCode": "256"
+  },
+  {
+    "countryName": "أوكرانيا",
+    "code": "UA",
+    "phoneCode": "380"
+  },
+  {
+    "countryName": "الإمارات العربية المتحدة",
+    "code": "AE",
+    "phoneCode": "971"
+  },
+  {
+    "countryName": "المملكة المتحدة",
+    "code": "GB",
+    "phoneCode": "44"
+  },
+  {
+    "countryName": "الولايات المتحدة",
+    "code": "US",
+    "phoneCode": "1"
+  },
+  {
+    "countryName": "جزر فيرجن التابعة للولايات المتحدة",
+    "code": "VI",
+    "phoneCode": "1340"
+  },
+  {
+    "countryName": "أوروغواي",
+    "code": "UY",
+    "phoneCode": "598"
+  },
+  {
+    "countryName": "أوزبكستان",
+    "code": "UZ",
+    "phoneCode": "998"
+  },
+  {
+    "countryName": "فانواتو",
+    "code": "VU",
+    "phoneCode": "678"
+  },
+  {
+    "countryName": "مدينة الفاتيكان",
+    "code": "VA",
+    "phoneCode": "379"
+  },
+  {
+    "countryName": "فنزويلا",
+    "code": "VE",
+    "phoneCode": "58"
+  },
+  {
+    "countryName": "فيتنام",
+    "code": "VN",
+    "phoneCode": "84"
+  },
+  {
+    "countryName": "واليس وفوتونا",
+    "code": "WF",
+    "phoneCode": "681"
+  },
+  {
+    "countryName": "الصحراء الغربية",
+    "code": "EH",
+    "phoneCode": "212"
+  },
+  {
+    "countryName": "اليمن",
+    "code": "YE",
+    "phoneCode": "967"
+  },
+  {
+    "countryName": "زامبيا",
+    "code": "ZM",
+    "phoneCode": "260"
+  },
+  {
+    "countryName": "زيمبابوي",
+    "code": "ZW",
+    "phoneCode": "263"
+  }
+]
