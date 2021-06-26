@@ -11,7 +11,7 @@ Plugin adds dropdown list of countries with dial codes to the choosen html input
 * Flag icons
 
 ## Usage
-Start using plugin in your page by adding js and css files. Also don't forgrt to add jQuery library.
+Start using plugin in your page by adding js and css files. Also don't forget to add jQuery library.
 
 ```html
 <script src="https://code.jquery.com/jquery-x.x.x.min.js" type="text/javascript"></script>
